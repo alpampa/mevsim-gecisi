@@ -4,7 +4,7 @@ import Controls from './components/Controls';
 import { useAudio } from './hooks/useAudio';
 import { playPageFlipSound } from './lib/pageFlipSound';
 
-const SITE_URL = 'https://mevsim-gecisi-app.web.app';
+const SITE_URL = 'https://alpampa.github.io/mevsim-gecisi/';
 
 export default function App() {
   const [book, setBook] = useState(null);
@@ -35,7 +35,7 @@ export default function App() {
 
   // Kitap verisini yükle
   useEffect(() => {
-    fetch('/bookData.json')
+    fetch(import.meta.env.BASE_URL + 'bookData.json')
       .then((res) => res.json())
       .then(setBook)
       .catch((err) => {
@@ -78,7 +78,7 @@ export default function App() {
     queuePosRef.current += 1;
     const page = pages[idx];
     if (!page) return;
-    const result = play(page.audioUrl, playNextInQueue);
+    const result = play(import.meta.env.BASE_URL + page.audioUrl, playNextInQueue);
     if (result && typeof result.catch === 'function') {
       result.catch(() => setAudioBlocked(true));
     }
@@ -360,12 +360,12 @@ export default function App() {
               Telefonla QR kodu okutun ya da linki gönderin
             </p>
             <img
-              src="/images/qr-kitap.png"
+              src={import.meta.env.BASE_URL + 'images/qr-kitap.png'}
               alt="Kitabın QR kodu"
               className="mx-auto mt-4 h-48 w-48 rounded-2xl border-4 border-mustard object-contain"
             />
             <p className="mt-3 break-all rounded-xl bg-cream px-3 py-2 font-book text-sm font-bold text-night">
-              mevsim-gecisi-app.web.app
+              alpampa.github.io/mevsim-gecisi
             </p>
             <div className="mt-4 flex gap-3">
               <button

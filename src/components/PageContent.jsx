@@ -22,7 +22,7 @@ export default function PageContent({ page, isCover, isBack, total }) {
     <div className="relative h-full w-full overflow-hidden bg-cream">
       {page.image && (
         <img
-          src={page.image}
+          src={import.meta.env.BASE_URL + page.image}
           alt={`Sayfa ${page.number}`}
           className="absolute inset-0 h-full w-full object-contain"
         />
