@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 620">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D6E4F5"/>
+      <stop offset="1" stop-color="#FFF3D6"/>
+    </linearGradient>
+  </defs>
+  <rect width="460" height="620" fill="url(#sky)"/>
+
+  <!-- güneş -->
+  <circle cx="78" cy="86" r="34" fill="#FFD97A"/>
+  <g stroke="#FFD97A" stroke-width="5" stroke-linecap="round">
+    <path d="M78 34 L78 46"/><path d="M78 126 L78 138"/>
+    <path d="M26 86 L38 86"/><path d="M118 86 L130 86"/>
+    <path d="M41 49 L49 57"/><path d="M107 115 L115 123"/>
+    <path d="M41 123 L49 115"/><path d="M107 57 L115 49"/>
+  </g>
+
+  <!-- ağaç dalı -->
+  <path d="M-10 96 Q 200 66 470 92" stroke="#6B4A32" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M300 82 Q 330 58 356 62" stroke="#6B4A32" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+  <!-- damlayan buz sarkıtları -->
+  <g fill="#D9F2FF" stroke="#A8D8EA" stroke-width="2">
+    <path d="M60 88 L74 158 L88 88 Z"/>
+    <path d="M120 82 L134 168 L148 82 Z"/>
+    <path d="M190 76 L202 132 L214 76 Z"/>
+    <path d="M260 74 L272 148 L284 74 Z"/>
+    <path d="M330 80 L342 122 L354 80 Z"/>
+    <path d="M400 86 L412 150 L424 86 Z"/>
+  </g>
+  <g fill="#A8D8EA">
+    <circle cx="74" cy="176" r="4"/><circle cx="134" cy="184" r="4"/>
+    <circle cx="272" cy="164" r="4"/><circle cx="412" cy="166" r="4"/>
+  </g>
+
+  <!-- eriyen kar zemini -->
+  <path d="M0 440 Q 80 424 160 442 Q 260 462 350 440 Q 410 428 460 442 L460 620 L0 620 Z" fill="#FFFFFF"/>
+  <ellipse cx="140" cy="580" rx="170" ry="30" fill="#D8E9F8" opacity="0.55"/>
+  <ellipse cx="360" cy="600" rx="140" ry="26" fill="#D8E9F8" opacity="0.5"/>
+  <circle cx="110" cy="500" r="16" fill="#9A6B4F" opacity="0.75"/>
+  <circle cx="330" cy="520" r="20" fill="#9A6B4F" opacity="0.7"/>
+  <circle cx="200" cy="570" r="14" fill="#9A6B4F" opacity="0.6"/>
+  <circle cx="410" cy="540" r="13" fill="#9A6B4F" opacity="0.65"/>
+
+  <!-- uyanan dere -->
+  <path d="M230 250 Q 210 330 240 400 Q 268 470 250 540 Q 240 580 250 620" stroke="#A8D8EA" stroke-width="34" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M230 250 Q 210 330 240 400 Q 268 470 250 540 Q 240 580 250 620" stroke="#D9F2FF" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.95"/>
+
+  <!-- kardelenler -->
+  <g>
+    <path d="M120 560 Q 128 510 134 490" stroke="#6FAE5C" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <g fill="#FFFFFF" stroke="#D6E9E0" stroke-width="1.5">
+      <ellipse cx="130" cy="486" rx="4" ry="11" transform="rotate(-24 130 486)"/>
+      <ellipse cx="138" cy="486" rx="4" ry="11" transform="rotate(24 138 486)"/>
+      <ellipse cx="134" cy="484" rx="4" ry="11"/>
+    </g>
+    <circle cx="134" cy="480" r="3" fill="#F2C14E"/>
+  </g>
+  <g>
+    <path d="M300 580 Q 306 540 310 520" stroke="#6FAE5C" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <g fill="#FFFFFF" stroke="#D6E9E0" stroke-width="1.5">
+      <ellipse cx="306" cy="516" rx="4" ry="11" transform="rotate(-24 306 516)"/>
+      <ellipse cx="314" cy="516" rx="4" ry="11" transform="rotate(24 314 516)"/>
+      <ellipse cx="310" cy="514" rx="4" ry="11"/>
+    </g>
+    <circle cx="310" cy="510" r="3" fill="#F2C14E"/>
+  </g>
+
+  <!-- ilk su birikintisi -->
+  <ellipse cx="380" cy="480" rx="42" ry="14" fill="#CBE9F7" stroke="#A8D8EA" stroke-width="2"/>
+  <ellipse cx="368" cy="476" rx="14" ry="4" fill="#FFFFFF" opacity="0.8"/>
+</svg>

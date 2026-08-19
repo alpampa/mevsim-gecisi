@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 620">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CBEEDD"/>
+      <stop offset="1" stop-color="#FFF9E3"/>
+    </linearGradient>
+  </defs>
+  <rect width="460" height="620" fill="url(#sky)"/>
+
+  <!-- güneş -->
+  <circle cx="400" cy="96" r="30" fill="#FFD97A"/>
+  <g stroke="#FFD97A" stroke-width="4" stroke-linecap="round">
+    <path d="M400 52 L400 62"/><path d="M400 130 L400 140"/>
+    <path d="M356 96 L366 96"/><path d="M434 96 L444 96"/>
+  </g>
+
+  <!-- yemyeşil tepeler -->
+  <path d="M0 430 Q 120 380 260 420 Q 380 452 460 410 L460 620 L0 620 Z" fill="#A5D69B"/>
+  <path d="M0 500 Q 140 460 290 500 Q 380 528 460 500 L460 620 L0 620 Z" fill="#7FBE6B"/>
+
+  <!-- tomurcuklanan ağaç -->
+  <path d="M330 560 Q 322 420 340 330" stroke="#6B4A32" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M340 400 Q 300 372 268 376" stroke="#6B4A32" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M340 360 Q 384 336 408 340" stroke="#6B4A32" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M340 330 Q 318 304 300 296" stroke="#6B4A32" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="268" cy="372" r="8" fill="#F9C6D8"/>
+  <circle cx="300" cy="292" r="8" fill="#7FBE6B"/>
+  <circle cx="408" cy="336" r="8" fill="#F9C6D8"/>
+  <circle cx="352" cy="318" r="7" fill="#7FBE6B"/>
+  <circle cx="330" cy="348" r="6" fill="#F9C6D8"/>
+
+  <!-- dalda yuva + kuş -->
+  <ellipse cx="306" cy="382" rx="26" ry="12" fill="#8A5A3B" stroke="#6B4A32" stroke-width="2"/>
+  <ellipse cx="296" cy="378" rx="5" ry="7" fill="#BFE3F2" transform="rotate(-14 296 378)"/>
+  <ellipse cx="312" cy="378" rx="5" ry="7" fill="#BFE3F2" transform="rotate(14 312 378)"/>
+  <g>
+    <circle cx="320" cy="358" r="10" fill="#F2C14E"/>
+    <circle cx="322" cy="344" r="7" fill="#F2C14E"/>
+    <path d="M329 344 L338 340 L329 338 Z" fill="#F2A33C"/>
+    <circle cx="324" cy="343" r="1.4" fill="#3B3B3B"/>
+    <path d="M316 362 Q 312 356 316 352 Q 320 356 316 362 Z" fill="#E8B34B"/>
+  </g>
+
+  <!-- renk renk çiçekler -->
+  <g>
+    <path d="M120 570 Q 122 530 126 510" stroke="#6FAE5C" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M126 532 Q 110 524 104 522" stroke="#6FAE5C" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <path d="M116 520 Q 126 512 136 520 Q 126 506 116 520 Z" fill="#F48FB1"/>
+    <path d="M116 514 Q 126 506 136 514 Q 126 500 116 514 Z" fill="#F48FB1"/>
+  </g>
+  <g>
+    <path d="M200 580 Q 202 548 206 532" stroke="#6FAE5C" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M196 540 Q 182 532 178 530" stroke="#6FAE5C" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <ellipse cx="206" cy="522" rx="8" ry="12" fill="#B57EDC"/>
+    <path d="M198 522 Q 206 534 214 522 Q 206 516 198 522 Z" fill="#B57EDC"/>
+  </g>
+  <g>
+    <path d="M420 560 Q 422 530 424 514" stroke="#6FAE5C" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <g fill="#FFFFFF" stroke="#E8E4D8" stroke-width="1.5">
+      <ellipse cx="418" cy="506" rx="5" ry="10" transform="rotate(-20 418 506)"/>
+      <ellipse cx="430" cy="506" rx="5" ry="10" transform="rotate(20 430 506)"/>
+    </g>
+    <circle cx="424" cy="502" r="4" fill="#F2C14E"/>
+  </g>
+
+  <!-- sevinçle zıplayan sincap -->
+  <g>
+    <ellipse cx="282" cy="560" rx="17" ry="13" fill="#A9703F"/>
+    <circle cx="290" cy="542" r="9" fill="#A9703F"/>
+    <path d="M266 552 Q 252 524 272 520 Q 290 516 284 536" fill="#C98A52"/>
+    <circle cx="292" cy="540" r="1.5" fill="#2A1B10"/>
+    <path d="M272 552 Q 262 534 258 526" stroke="#A9703F" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M292 550 Q 300 534 304 526" stroke="#A9703F" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- kelebek -->
+  <g>
+    <ellipse cx="160" cy="440" rx="9" ry="7" fill="#F48FB1" transform="rotate(-24 160 440)"/>
+    <ellipse cx="176" cy="440" rx="9" ry="7" fill="#8E7CC3" transform="rotate(24 176 440)"/>
+    <ellipse cx="168" cy="436" rx="4" ry="9" fill="#F48FB1" opacity="0.8"/>
+    <path d="M168 444 L168 452" stroke="#6B4A32" stroke-width="1.6"/>
+  </g>
+</svg>

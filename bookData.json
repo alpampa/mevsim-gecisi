@@ -1,0 +1,50 @@
+{
+  "title": "Mevsim Geçisi",
+  "subtitle": "Kıştan ilkbahara, doğanın uyanışı",
+  "author": "Recep Kızılırmak",
+  "titleAudioUrl": null,
+  "pages": [
+    {
+      "id": 1,
+      "number": 1,
+      "image": "/images/01-kapak.svg",
+      "text": "Mevsim Geçisi. Kıştan ilkbahara, doğanın uyanışı. Yazan ve Resimleyen: Recep Kızılırmak.",
+      "audioUrl": "/audio/page-01.wav"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "image": "/images/02-kis.svg",
+      "text": "Ormanda uzun bir kış vardı. Gökyüzü kurşuni, hava dondurucuydu. Küçük sincap Fındık, soğuktan titriyordu. “Bahar hiç gelmeyecek mi?” diye sordu. Yaşlı meşe ağacı fısıldadı: “Sabret küçüğüm, her mevsimin bir zamanı vardır.”",
+      "audioUrl": "/audio/page-02.wav"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "image": "/images/03-cozulme.svg",
+      "text": "Bir sabah, uyuyan dere yeniden akmaya başladı. Buzlar çıtır çıtır kırıldı, karlar eridi. Kardelenler, karların arasından başlarını uzattı. Fındık, güneşin ilk ışığını yanaklarında hissetti. “Bak!” dedi. “Kar eriyor, bahar kapıda!”",
+      "audioUrl": "/audio/page-03.wav"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "image": "/images/04-uyanis.svg",
+      "text": "Ağaçlar tomurcuklandı, dallara kuşlar yuva yaptı. Çiçekler renk renk açtı: mor, sarı, pembe. Fındık ve arkadaşları yumuşak çimenlerde zıpladı. “Yaşasın!” diye sevindi Fındık. “Doğa uyandı!”",
+      "audioUrl": "/audio/page-04.wav"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "image": "/images/05-bahar.svg",
+      "text": "Ve geldi o gün: İlkbahar! Elma ağaçları beyaz çiçeklere büründü, kelebekler dans etti. Küçük Fındık, yaşlı meşeye sarıldı. “Sabır etmeyi öğrettin bana,” dedi. Meşe gülümsedi: “Her soğuk kıştan sonra mutlaka bahar gelir, küçüğüm.”",
+      "audioUrl": "/audio/page-05.wav"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "image": null,
+      "text": "Her kıştan sonra bir ilkbahar gelir. Soğuk günler de bir gün biter; yüreğinde baharın sıcaklığını taşı. Yazan ve Resimleyen: Recep Kızılırmak.",
+      "audioUrl": "/audio/page-06.wav"
+    }
+  ]
+}
