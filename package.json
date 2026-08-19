@@ -1,0 +1,31 @@
+{
+  "homepage": "https://alpampa.github.io/mevsim-gecisi",
+  "name": "mevsim-gecisi",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "audio": "node generateAudio.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-pageflip": "^2.0.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.49",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.35.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.4.11"
+  }
+}

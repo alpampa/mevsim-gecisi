@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 620">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B9CFE8"/>
+      <stop offset="1" stop-color="#EAF3FB"/>
+    </linearGradient>
+  </defs>
+  <rect width="460" height="620" fill="url(#sky)"/>
+
+  <!-- bulutlar -->
+  <g fill="#FFFFFF" opacity="0.9">
+    <ellipse cx="120" cy="110" rx="52" ry="22"/>
+    <ellipse cx="150" cy="96" rx="36" ry="18"/>
+    <ellipse cx="330" cy="70" rx="44" ry="18"/>
+    <ellipse cx="355" cy="58" rx="30" ry="14"/>
+  </g>
+
+  <!-- kar zemini -->
+  <path d="M0 400 Q 90 378 190 402 Q 300 428 380 398 Q 430 384 460 400 L460 620 L0 620 Z" fill="#FFFFFF"/>
+  <ellipse cx="120" cy="600" rx="200" ry="40" fill="#D8E9F8" opacity="0.6"/>
+  <ellipse cx="340" cy="590" rx="180" ry="34" fill="#D8E9F8" opacity="0.5"/>
+
+  <!-- karlı ev -->
+  <rect x="60" y="420" width="150" height="130" rx="6" fill="#F7E8D0"/>
+  <path d="M45 425 L135 352 L225 425 Z" fill="#C96F5A"/>
+  <path d="M60 415 L135 358 L210 415 L210 425 L60 425 Z" fill="#FFFFFF"/>
+  <rect x="88" y="500" width="46" height="50" rx="4" fill="#8B5A33"/>
+  <rect x="102" y="520" width="18" height="30" rx="3" fill="#6B4A32"/>
+  <rect x="150" y="452" width="42" height="42" rx="4" fill="#FFD97A"/>
+  <rect x="166" y="452" width="4" height="42" fill="#E8C98F"/>
+  <rect x="150" y="470" width="42" height="4" fill="#E8C98F"/>
+  <rect x="170" y="330" width="14" height="46" rx="4" fill="#9A6B4F"/>
+  <g fill="#E8F1FA" opacity="0.8">
+    <circle cx="180" cy="310" r="10"/><circle cx="192" cy="292" r="12"/><circle cx="207" cy="276" r="10"/>
+  </g>
+
+  <!-- çıplak ağaç -->
+  <path d="M300 470 Q 292 380 302 320" stroke="#5B4432" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M302 360 Q 268 332 252 330" stroke="#5B4432" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M302 340 Q 334 316 352 318" stroke="#5B4432" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M302 320 Q 282 296 270 288" stroke="#5B4432" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- küçük çam -->
+  <path d="M415 430 L438 350 L392 350 Z" fill="#3F5D4B"/>
+  <path d="M415 460 L440 388 L390 388 Z" fill="#47684F"/>
+  <rect x="409" y="430" width="12" height="30" rx="4" fill="#5B4432"/>
+  <path d="M392 350 Q415 336 438 350 Q415 344 392 350 Z" fill="#FFFFFF" opacity="0.9"/>
+
+  <!-- donmuş gölet -->
+  <ellipse cx="340" cy="530" rx="72" ry="26" fill="#B8E2F2" stroke="#A5D4E8" stroke-width="3"/>
+  <ellipse cx="320" cy="524" rx="30" ry="9" fill="#FFFFFF" opacity="0.55"/>
+
+  <!-- kardan adam -->
+  <circle cx="150" cy="560" r="22" fill="#FFFFFF" stroke="#D8E9F8" stroke-width="2"/>
+  <circle cx="150" cy="528" r="16" fill="#FFFFFF" stroke="#D8E9F8" stroke-width="2"/>
+  <circle cx="150" cy="502" r="12" fill="#FFFFFF" stroke="#D8E9F8" stroke-width="2"/>
+  <path d="M144 504 L156 504 L150 514 Z" fill="#F2A33C"/>
+  <circle cx="146" cy="498" r="2" fill="#3B3B3B"/>
+  <circle cx="154" cy="498" r="2" fill="#3B3B3B"/>
+  <circle cx="150" cy="504" r="1.6" fill="#3B3B3B"/>
+  <circle cx="150" cy="552" r="2.4" fill="#3B3B3B"/>
+  <circle cx="150" cy="564" r="2.4" fill="#3B3B3B"/>
+
+  <!-- üşüyen sincap -->
+  <g>
+    <ellipse cx="228" cy="556" rx="16" ry="11" fill="#A9703F"/>
+    <circle cx="236" cy="542" r="8" fill="#A9703F"/>
+    <path d="M214 552 Q 200 526 220 522 Q 238 520 232 538" fill="#C98A52"/>
+    <circle cx="234" cy="540" r="1.4" fill="#2A1B10"/>
+  </g>
+
+  <!-- kar taneleri -->
+  <g stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" opacity="0.95">
+    <path d="M70 150 l0 12 M64 156 l12 0 M67 153 l6 6 M73 153 l6 -6"/>
+    <path d="M240 120 l0 10 M235 125 l10 0 M237 123 l5 5 M242 123 l5 -5"/>
+    <path d="M380 150 l0 12 M374 156 l12 0 M377 153 l6 6 M383 153 l6 -6"/>
+    <path d="M60 260 l0 10 M55 265 l10 0 M57 263 l5 5 M62 263 l5 -5"/>
+    <path d="M180 200 l0 10 M175 205 l10 0 M177 203 l5 5 M182 203 l5 -5"/>
+    <path d="M420 260 l0 10 M415 265 l10 0 M417 263 l5 5 M422 263 l5 -5"/>
+  </g>
+</svg>

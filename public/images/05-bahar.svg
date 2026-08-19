@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 620">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BDE7F6"/>
+      <stop offset="1" stop-color="#FFF6DA"/>
+    </linearGradient>
+  </defs>
+  <rect width="460" height="620" fill="url(#sky)"/>
+
+  <!-- pırıl pırıl güneş -->
+  <circle cx="398" cy="96" r="38" fill="#FFD97A"/>
+  <g stroke="#FFD97A" stroke-width="5" stroke-linecap="round">
+    <path d="M398 42 L398 54"/><path d="M398 138 L398 150"/>
+    <path d="M344 96 L356 96"/><path d="M440 96 L452 96"/>
+    <path d="M360 60 L368 68"/><path d="M428 124 L436 132"/>
+    <path d="M360 132 L368 124"/><path d="M428 68 L436 60"/>
+  </g>
+
+  <!-- gökkuşağı -->
+  <g fill="none" stroke-width="12" opacity="0.55">
+    <path d="M30 570 A 150 150 0 0 1 330 570" stroke="#F2C14E"/>
+    <path d="M52 570 A 128 128 0 0 1 308 570" stroke="#F48FB1"/>
+    <path d="M74 570 A 106 106 0 0 1 286 570" stroke="#B57EDC"/>
+  </g>
+
+  <!-- çimen -->
+  <path d="M0 470 Q 120 440 240 468 Q 350 492 460 462 L460 620 L0 620 Z" fill="#8CCB6A"/>
+  <ellipse cx="120" cy="590" rx="170" ry="28" fill="#7FBE6B" opacity="0.8"/>
+  <ellipse cx="350" cy="600" rx="150" ry="24" fill="#7FBE6B" opacity="0.7"/>
+
+  <!-- çiçek açan kiraz ağacı -->
+  <path d="M236 580 Q 228 420 248 320" stroke="#6B4A32" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M248 400 Q 196 366 158 374" stroke="#6B4A32" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M248 360 Q 306 328 344 336" stroke="#6B4A32" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M248 320 Q 214 288 192 284" stroke="#6B4A32" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="210" cy="330" r="44" fill="#F7B7CD"/>
+  <circle cx="286" cy="320" r="50" fill="#F9C6D8"/>
+  <circle cx="150" cy="372" r="34" fill="#FCE4EC"/>
+  <circle cx="348" cy="334" r="30" fill="#F9C6D8"/>
+  <circle cx="250" cy="280" r="34" fill="#FCE4EC"/>
+  <circle cx="190" cy="282" r="26" fill="#F7B7CD"/>
+  <g fill="#FFFFFF" opacity="0.3">
+    <circle cx="230" cy="310" r="18"/><circle cx="300" cy="306" r="20"/>
+    <circle cx="262" cy="268" r="14"/>
+  </g>
+
+  <!-- uçuşan yapraklar -->
+  <g fill="#FFE0EC">
+    <circle cx="320" cy="400" r="4"/><circle cx="150" cy="430" r="4"/>
+    <circle cx="280" cy="440" r="3"/><circle cx="360" cy="380" r="3"/>
+    <circle cx="200" cy="460" r="4"/><circle cx="330" cy="460" r="3"/>
+  </g>
+
+  <!-- kelebekler -->
+  <g>
+    <ellipse cx="120" cy="330" rx="10" ry="8" fill="#F48FB1" transform="rotate(-22 120 330)"/>
+    <ellipse cx="138" cy="330" rx="10" ry="8" fill="#8E7CC3" transform="rotate(22 138 330)"/>
+    <ellipse cx="129" cy="326" rx="4" ry="10" fill="#F48FB1" opacity="0.8"/>
+    <path d="M129 334 L129 342" stroke="#6B4A32" stroke-width="1.6"/>
+  </g>
+  <g>
+    <ellipse cx="392" cy="250" rx="8" ry="6" fill="#B57EDC" transform="rotate(-20 392 250)"/>
+    <ellipse cx="406" cy="250" rx="8" ry="6" fill="#F48FB1" transform="rotate(20 406 250)"/>
+    <path d="M399 256 L399 262" stroke="#6B4A32" stroke-width="1.5"/>
+  </g>
+
+  <!-- uçan kuşlar -->
+  <g stroke="#4B5563" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M96 190 Q 106 180 116 190"/>
+    <path d="M130 168 Q 138 160 146 168"/>
+  </g>
+
+  <!-- mutlu sincap -->
+  <g>
+    <ellipse cx="236" cy="560" rx="18" ry="14" fill="#A9703F"/>
+    <circle cx="245" cy="540" r="10" fill="#A9703F"/>
+    <path d="M219 550 Q 203 520 226 516 Q 246 512 240 534" fill="#C98A52"/>
+    <circle cx="247" cy="538" r="1.6" fill="#2A1B10"/>
+    <path d="M224 552 Q 212 532 206 522" stroke="#A9703F" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M248 550 Q 258 532 264 522" stroke="#A9703F" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- çayırdaki çiçekler -->
+  <circle cx="90" cy="540" r="8" fill="#F2C14E"/>
+  <circle cx="90" cy="540" r="3" fill="#A9703F"/>
+  <circle cx="180" cy="580" r="9" fill="#F48FB1"/>
+  <circle cx="180" cy="580" r="3.4" fill="#FCE4EC"/>
+  <circle cx="420" cy="560" r="9" fill="#B57EDC"/>
+  <circle cx="420" cy="560" r="3.4" fill="#FCE4EC"/>
+  <circle cx="320" cy="590" r="8" fill="#F2C14E"/>
+  <circle cx="320" cy="590" r="3" fill="#A9703F"/>
+</svg>

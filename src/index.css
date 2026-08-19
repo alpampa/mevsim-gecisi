@@ -1,0 +1,256 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Kitap sayfası temel stilleri ---------- */
+.book-page {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  font-family: 'Baloo 2', ui-rounded, sans-serif;
+}
+
+/* İç sayfa metin kutusu (görselin altına, yarı saydam, neşeli çerçeveli) */
+.page-overlay {
+  position: absolute;
+  left: 7%;
+  right: 7%;
+  bottom: 6%;
+  background: rgba(255, 255, 255, 0.93);
+  border-radius: 20px;
+  border: 3px solid #f2c14e;
+  padding: 12px 16px;
+  box-shadow: 0 6px 20px rgba(31, 77, 58, 0.25);
+}
+
+.page-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #1f4d3a;
+  font-weight: 600;
+}
+
+/* Dekoratif iç çerçeve: sayfa kenarlarında çift çizgi */
+.page-frame {
+  position: absolute;
+  inset: 10px;
+  border: 3px solid rgba(242, 193, 78, 0.85);
+  border-radius: 18px;
+  pointer-events: none;
+  box-shadow: inset 0 0 0 2px rgba(31, 77, 58, 0.25);
+}
+
+/* Sayfa numarası rozeti */
+.page-num {
+  position: absolute;
+  right: 18px;
+  bottom: 16px;
+  min-width: 42px;
+  height: 34px;
+  padding: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: #f2c14e;
+  color: #1f4d3a;
+  font-size: 15px;
+  font-weight: 800;
+  box-shadow: 0 3px 10px rgba(31, 77, 58, 0.3);
+  border: 2px solid #ffffff;
+}
+
+/* Kapak yazıları (görselin üst kısmına) */
+.cover-overlay {
+  position: absolute;
+  top: 8%;
+  left: 6%;
+  right: 6%;
+  text-align: center;
+}
+
+.cover-star {
+  display: block;
+  font-size: 26px;
+  margin-bottom: 6px;
+  animation: twinkle 2.4s ease-in-out infinite;
+}
+
+.cover-title {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #f2c14e;
+  text-shadow:
+    0 0 10px rgba(31, 77, 58, 0.85),
+    1px 1px 0 #1f4d3a,
+    -1px 1px 0 #1f4d3a,
+    1px -1px 0 #1f4d3a,
+    -1px -1px 0 #1f4d3a;
+}
+
+.cover-subtitle {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fdf3e3;
+  text-shadow: 0 0 8px rgba(31, 77, 58, 0.95), 1px 1px 0 #1f4d3a;
+}
+
+.cover-author {
+  margin-top: 12px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  padding: 6px 20px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 10px rgba(31, 77, 58, 0.25);
+}
+
+.cover-author-role {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #1e5b4a;
+}
+
+.cover-author-name {
+  font-size: 15px;
+  font-weight: 800;
+  color: #1f4d3a;
+}
+
+/* Arka kapak */
+.back-page {
+  height: 100%;
+  background: #fdf3e3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 26px;
+}
+
+.back-quote {
+  font-size: 25px;
+  font-weight: 700;
+  font-style: italic;
+  color: #d96c8f;
+}
+
+.back-src {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #8fa98a;
+}
+
+.back-note {
+  margin-top: 24px;
+  font-size: 15px;
+  color: #1e5b4a;
+}
+
+.back-author {
+  margin-top: 26px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1f4d3a;
+}
+
+/* react-pageflip sayfa arka yüzü beyaz kalsın */
+.stf__item {
+  background: #ffffff;
+}
+
+/* ---------- Kitap dışı dekorlar (yazısız) ---------- */
+.sky-deco {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.deco {
+  position: absolute;
+  font-size: 34px;
+  opacity: 0.7;
+  animation: floaty 6s ease-in-out infinite;
+}
+
+.deco-1 { top: 8%; left: 6%; }
+.deco-2 { top: 14%; right: 8%; animation-delay: 1.2s; }
+.deco-3 { top: 42%; left: 3%; font-size: 46px; animation-delay: 2s; }
+.deco-4 { bottom: 18%; right: 5%; animation-delay: 0.6s; }
+.deco-5 { top: 30%; left: 12%; font-size: 24px; animation-delay: 1.6s; }
+.deco-6 { bottom: 30%; left: 10%; animation-delay: 2.6s; }
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-14px) rotate(8deg); }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.25); }
+}
+
+/* ---------- Mobil uyumluluk (tek sayfa modu) ----------
+   Dar ekranda kitap tek sayfa görünür; sayfa daha geniş alan
+   kapladığı için metin ve kapak yazıları rahat okunur. */
+@media (max-width: 640px) {
+  .page-text {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .page-overlay {
+    left: 5%;
+    right: 5%;
+    bottom: 4%;
+    padding: 10px 14px;
+    border-radius: 16px;
+  }
+
+  .page-frame {
+    inset: 8px;
+    border-radius: 14px;
+  }
+
+  .cover-title {
+    font-size: 24px;
+  }
+
+  .cover-subtitle {
+    font-size: 13px;
+  }
+
+  .cover-author {
+    margin-top: 10px;
+    padding: 5px 16px;
+  }
+
+  .cover-author-role {
+    font-size: 10px;
+  }
+
+  .cover-author-name {
+    font-size: 14px;
+  }
+
+  .page-num {
+    right: 12px;
+    bottom: 12px;
+    min-width: 38px;
+    height: 30px;
+    font-size: 13px;
+  }
+
+  /* Telefonda kitabın altındaki oklar biraz daha küçük */
+  .flex .rounded-full {
+    touch-action: manipulation;
+  }
+}
